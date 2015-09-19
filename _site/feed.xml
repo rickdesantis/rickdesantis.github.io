@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R</title>
+    <description>My personal page for my projects.
+</description>
+    <link>http://github.deadware.org//</link>
+    <atom:link href="http://github.deadware.org//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 19 Sep 2015 15:39:14 +0200</pubDate>
+    <lastBuildDate>Sat, 19 Sep 2015 15:39:14 +0200</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+  </channel>
+</rss>
