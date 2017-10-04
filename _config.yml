@@ -1,6 +1,7 @@
 # External gems
 plugins:
   - jekyll-sitemap
+  - jekyll-github-metadata
 
 # Site settings
 title: R
