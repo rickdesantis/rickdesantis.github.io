@@ -8,10 +8,10 @@
 
     	<p><strong>Site Map</strong></p>
       <ul class="pages">
-        <li class="nav-link"><a href="{{ site.baseurl }}">About me</a>
+        <li class="nav-link"><a href="{{ site.baseurl }}/">About me</a>
         {% for page in site.pages %}
         {% if page.title and page.main_nav != false %}
-          <li class="nav-link"><a href="{{ page.url | remove_first: '/' | prepend: site.baseurl }}">{{ page.title }}</a>
+          <li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
         {% endfor %}
       </ul>
@@ -43,7 +43,7 @@
     </div>
 
     <div class="site-signature">
-    	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
+    	<p class="rss-subscribe text"><strong>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></strong></p>
       <p class="text">{{ site.description }}</p>
       <p class="text">This site is developed using <a href="https://jekyllrb.com">Jekyll</a> and <a href="http://bencentra.com/centrarium/">Centrarium</a></p>
     </div>

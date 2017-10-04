@@ -2,8 +2,8 @@
 layout: page
 dontusedivider: true
 ---
-<a href="{{ site.baseurl }}assets/picture.jpg" data-lightbox="picture" data-title="Profile Picture">
-  <img src="{{ site.baseurl }}assets/picture.jpg" title="Profile Picture" class="profile">
+<a href="{{ site.baseurl }}/assets/picture.jpg" data-lightbox="picture" data-title="Profile Picture">
+  <img src="{{ site.baseurl }}/assets/picture.jpg" title="Profile Picture" class="profile">
 </a>
 
 Hi, I'm **Riccardo Benito Desantis**, I'm 28 years old and I live in Milan (Italy).
