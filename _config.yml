@@ -9,7 +9,7 @@ email: effetti@gmail.com
 name: Riccardo B. Desantis
 description: >
   My personal page for my projects.
-baseurl: /
+baseurl: "//" # /
 #baseurl: "/centrarium/" # the subpath of your site, e.g. /blog/
 url: https://rickdesantis.js.org # the base hostname & protocol for your site
 cover: assets/header_image.jpg
@@ -65,17 +65,17 @@ social:
     url: https://www.linkedin.com/in/rickdesantis
     desc: Connect with me on LinkedIn
     share_url: //www.linkedin.com/shareArticle
-    share_title: ?mini=true
+    share_title: "?mini=true"
     share_link: "&amp;url="
 
   - name: Twitter
     icon: twitter
-    username: @rickdesantis
+    username: "@rickdesantis"
     url: https://twitter.com/rickdesantis
     desc: Follow me on Twitter
     share_url: http://twitter.com/share
-    share_title: ?text=
-    share_link: &amp;url=
+    share_title: "?text="
+    share_link: "&amp;url="
 
   - name: Facebook
     icon: facebook
@@ -83,8 +83,8 @@ social:
     url: https://www.facebook.com/riccardo.desantis
     desc: Friend me on Facebook
     share_url: //www.facebook.com/sharer.php
-    share_title: ?t=
-    share_link: &amp;u=
+    share_title: "?t="
+    share_link: "&amp;u="
 
   - name: Skype
     icon: skype
