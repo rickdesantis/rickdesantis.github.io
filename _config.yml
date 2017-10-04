@@ -1,5 +1,5 @@
 # External gems
-gems:
+plugins:
   - jekyll-sitemap
 
 # Site settings
@@ -11,7 +11,7 @@ description: >
   My personal page for my projects.
 baseurl: "/"
 #baseurl: "/centrarium/" # the subpath of your site, e.g. /blog/
-url: "http://github.deadware.org" # the base hostname & protocol for your site
+url: "https://rickdesantis.js.org" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 
